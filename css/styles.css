@@ -1,0 +1,311 @@
+body {
+  font-family: roboto;
+}
+
+.header {
+  width: 1600px;
+  height: 80px;
+  margin-left: 215px;
+  margin-top: 0px;
+  background-color: #ffffff;
+}
+
+.header-web-span {
+  color: #2196f3;
+}
+
+.header-logo {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30, 52px;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  margin-top: 24px;
+  text-decoration: none;
+  color: #212121;
+}
+
+.nav-box {
+  position: absolute;
+  margin-left: 453px;
+  margin-top: 32px;
+}
+
+.nav-item {
+  margin-right: 46px;
+  text-decoration: none;
+  color: #212121;
+  line-height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.email,
+.phone {
+  color: #757575;
+  position: absolute;
+  height: 16px;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.email {
+  width: 135px;
+  margin-left: 1078px;
+}
+.email:hover,
+.email:focus,
+.footer-email:hover,
+.footer-email:focus,
+.phone:hover,
+.phone:focus,
+.footer-phone:hover,
+.footer-phone:focus {
+  color: #2196f3;
+}
+
+.email,
+.footer-email,
+.phone,
+.footer-phone {
+  cursor: pointer;
+}
+
+.phone {
+  width: 110px;
+  margin-left: 1263px;
+}
+
+.main {
+  width: 1600px;
+  height: 1548px;
+  margin-left: 430px;
+  margin-top: 94px;
+  background-color: #ffffff;
+}
+
+.main-buttons {
+  margin-left: 295px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.button {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 26px;
+  padding: 6px 22px 6px 22px;
+  margin-right: 6px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  border: 0px;
+  cursor: pointer;
+}
+
+.main-item {
+  display: inline-block;
+  margin: 0px 30px 30px 0px;
+  border: 1px solid #eeeeee;
+}
+
+.main-item-pic {
+  width: 370px;
+  height: 294px;
+}
+
+.main-item-name {
+  width: 322px;
+  height: 36px;
+  margin: 20px 24px 4px 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.main-item-category {
+  width: 322px;
+  height: 30px;
+  margin: 0px 24px 20px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 215px;
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  font-family: raleway;
+  position: absolute;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  margin-top: 60px;
+  margin-left: 215px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-address {
+  position: absolute;
+  margin-top: 111px;
+  margin-left: 215px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.footer-email {
+  position: absolute;
+  margin-top: 141px;
+  margin-left: 215px;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+  position: absolute;
+  margin-top: 171px;
+  margin-left: 215px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-item:hover {
+  color: #2196f3;
+}
+
+.nav-item:focus {
+  color: #2196f3;
+}
+
+.button:hover {
+  background-color: #2196f3;
+}
+
+.button:focus {
+  background-color: #2196f3;
+}
+
+.studio-main {
+  width: 1600px;
+  height: 600px;
+  margin-left: 215px;
+  top: 200px;
+  align-items: center;
+  position: static;
+  text-align: center;
+  background-color: #2f303a;
+}
+
+.slogan-header {
+  position: static;
+  padding-top: 200px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.lorem-ipsum-box {
+  margin-top: 94px;
+  margin-left: 430px;
+}
+
+.lorem-header {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.lorem-small-box {
+  height: 101px;
+  width: 270px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 171%;
+  color: #757575;
+  margin-right: 30px;
+}
+
+.header2 {
+  width: 1180px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 94px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.members {
+  width: 1600px;
+  height: 648px;
+  margin-top: 188px;
+  margin-left: 430px;
+}
+
+.team-member-box {
+  display: inline-block;
+  width: 270px;
+  height: 368px;
+  margin-right: 30px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.presentation {
+  margin-left: 430px;
+}
+
+.presentation img {
+  margin-right: 30px;
+}
+
+.member-name {
+  text-align: center;
+  height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.member-role {
+  height: 19px;
+  text-align: center;
+  font-size: 16px;
+  color: #757575;
+}
